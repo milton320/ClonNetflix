@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Card{
+    @apply w-48 h-64 shadow-md rounded-lg flex-none transition-all hover:-translate-y-4 hover:shadow-xl
+}
+.Scroll{
+    @apply scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-slate-700
+}
+.ScrollHorizontal{
+    @apply h-[400vh] scrollbar-track-current scrollbar-thumb-teal-500 scrollbar-track-slate-700
+}
